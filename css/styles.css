@@ -479,18 +479,21 @@ form select {
   border: 1px solid #000000;
   border-radius: 0.3125rem;
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 form .inputs-list {
   list-style: none;
   padding: 0;
-  margin: 1rem 0;
+  margin: 0;
 }
 form .hs_submit {
   margin-top: 2rem;
 }
 form .hs_submit input {
   width: auto;
+}
+form .hs-richtext {
+  font-size: 0.875rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
