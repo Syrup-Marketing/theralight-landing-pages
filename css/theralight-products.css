@@ -60,7 +60,7 @@ a:not(.button) {
 }
 
 .container {
-  max-width: 94rem;
+  max-width: 92rem;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-left: auto;
@@ -250,7 +250,7 @@ img.full-size {
   color: #ffffff;
 }
 .callout .container {
-  max-width: 76rem;
+  max-width: 79rem;
   text-align: center;
 }
 
@@ -272,6 +272,14 @@ img.full-size {
   .features .features-row {
     grid-template-columns: 3fr 2fr;
   }
+}
+.features .features-images {
+  display: grid;
+  row-gap: 1.25rem;
+}
+.features .features-images img {
+  display: block;
+  border-radius: 0.5rem;
 }
 .features .bigger {
   font-weight: 500;
@@ -330,6 +338,10 @@ img.full-size {
     padding: 5.5rem 0;
   }
 }
+.anywhere .anywhere-image img {
+  display: block;
+  margin: 0 auto;
+}
 .anywhere .anywhere-row {
   display: grid;
   row-gap: 2rem;
@@ -356,16 +368,6 @@ img.full-size {
 @media (min-width: 768px) {
   .anywhere .anywhere-box {
     grid-column: 2/3;
-  }
-}
-@media (min-width: 768px) {
-  .anywhere .anywhere-image {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 50%;
-    width: 655px;
-    display: block;
   }
 }
 
